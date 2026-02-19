@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="VectorKernel-Starter.vcxproj" Id="f06de000-3bb7-4dbc-861f-d598bde2e8cc" />
+</Solution>

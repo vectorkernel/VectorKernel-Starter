@@ -124,6 +124,47 @@ You are free to use and modify the code as long as it is **not used for resale o
 
 If you wish to use this project commercially, please contact the repository owner through GitHub Issues.
 
+
+### 1️⃣ Extract Fonts
+
+Unzip the `hershey-fonts.zip` archive and place the extracted folder at:
+
+```
+C:\ProgramData\hershey-fonts
+```
+
+If the `ProgramData` folder is hidden, enable **“Show hidden items”** in File Explorer.
+
+---
+
+### 2️⃣ Add to System PATH
+
+To make the fonts discoverable at runtime, add the folder to your global system PATH.
+
+Open **Command Prompt as Administrator** and run:
+
+```bash
+setx /M PATH "%PATH%;C:\ProgramData\hershey-fonts"
+```
+
+Restart your terminal (or reboot) after running this command.
+
+---
+
+### Notes
+
+* Administrator privileges are required for `/M` (machine-level) PATH changes.
+* Alternatively, you may modify the PATH manually via:
+
+  * `System Properties → Advanced → Environment Variables`
+* If the fonts are not found at runtime, verify:
+
+  * The directory exists
+  * The PATH entry is present
+  * The terminal was restarted
+
+---
+
 ---
 
 ## Donations
@@ -183,3 +224,4 @@ If you'd like, I can also:
 * Help you fully scrub identity from git history (important)
 
 Let me know how you'd like to proceed.
+

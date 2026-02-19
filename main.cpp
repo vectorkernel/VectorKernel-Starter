@@ -292,7 +292,7 @@ int WINAPI WinMain(
     HWND hwnd = CreateWindowExA(
         0,
         className,
-        "VDraw Demo13",
+        "VectorKernel-Starter",
         WS_OVERLAPPEDWINDOW | WS_VISIBLE,
         CW_USEDEFAULT, CW_USEDEFAULT,
         width, height,

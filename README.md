@@ -1,6 +1,4 @@
-Below is a professionally structured `README.md` tailored for your project, keeping it anonymous, clearly defining the non-resale restriction, and including your Bitcoin donation address. I’ve also added a sanitization notice section as requested.
 
-You can paste this directly into your GitHub `README.md`.
 
 ---
 
@@ -215,13 +213,8 @@ Use at your own risk.
 
 ---
 
-If you'd like, I can also:
 
-* Generate a matching `LICENSE.txt`
-* Create a sanitized `.gitignore`
-* Provide a `CONTRIBUTING.md`
-* Write a stronger custom non-commercial license draft
-* Help you fully scrub identity from git history (important)
 
 Let me know how you'd like to proceed.
+
 
